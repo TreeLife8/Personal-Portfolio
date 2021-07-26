@@ -20,15 +20,21 @@ a {
 .hero {
   background: #010300;
 }
+.hero-contact {
+  background: #fbfbfb;
+}
 .hero h1 {
   padding-bottom: 0;
 }
-.hero-contact {
-  background-image: url(/images/leaf.jpg);
-}
 .hero-contact h1 {
   font-weight: 600;
-  color: #0b2200;
+  color: #131313;
+  text-shadow: 2px 2px 8px rgba(25, 25, 25, 0.295);
+}
+.hero-work {
+  background-image: url(/images/do-something-great.jpg);
+  background-size: cover;
+  height: 600px;
 }
 .content-container {
   background: #2125294d;
