@@ -3,6 +3,7 @@
   --secondary-colour: #d6d6d6;
   --dark-shadow: #212529;
   --modern-purple: #630dc2;
+  --transparent-purple: #9878bb;
   --modern-pink: #da0e9b;
   --gradient: linear-gradient(
     68.6deg,
@@ -30,13 +31,17 @@ h6 {
 }
 hr:not([size]) {
   height: 3px;
-  color: var(--modern-purple);
   text-align: right;
+  color: var(--modern-purple);
 }
 li {
   padding: 5px 0;
   list-style-type: none;
-  font-size: 18px;
+  font-size: 14px;
+  opacity: 0.7;
+}
+img {
+  padding: 0;
 }
 a {
   color: #010300;
@@ -49,6 +54,9 @@ a:hover {
 .section {
   max-width: 1100px;
   margin: 0 auto;
+}
+.bg {
+  background-color: var(--modern-purple);
 }
 .hero {
   background: #010300;
@@ -86,11 +94,14 @@ a:hover {
 }
 .about-container {
   margin-top: 20px;
+  background: white;
+  transition: all 150ms ease-in-out;
 }
 .about-container .content-container {
   margin-top: 160px;
   transition: ease-in-out all 150ms;
   box-shadow: var(--shadow);
+  border-radius: 4px;
 }
 .about-container .content-container:hover {
   color: white;
@@ -99,17 +110,37 @@ a:hover {
 .tile {
   margin-top: -185px;
   padding: 0;
-}
-.tile-image {
-  padding: 0;
+  margin-left: -50px;
 }
 .about-card {
   background: white;
   border-radius: 4px;
   box-shadow: var(--shadow);
 }
+.tile-second-section {
+  margin-top: 150px;
+  margin-left: 70px;
+  margin-bottom: -200px;
+  padding: 0;
+  max-width: 150%;
+}
+.content-container .about-container:hover {
+  color: white;
+  background: linear-gradient(68.6deg, #da0e9944, #650dc270);
+}
 .btn {
   padding: 15px 20px;
+  background: var(--modern-purple);
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+.btn:hover {
+  opacity: 0.8;
+  color: white;
+  border: 5px solid var(--transparent-purple);
+}
+.bottom-margin {
+  padding-bottom: 100px;
 }
 .content-container p {
   font-size: 16px;
@@ -131,25 +162,33 @@ a:hover {
 .card-right {
   margin-top: 250px;
 }
+.margin {
+  margin-top: 100px;
+}
 .underlink {
   max-width: 40%;
 }
 .highlight-line {
   max-width: 80%;
+  color: var(--modern-purple);
 }
 .icon {
   font-size: 40px;
-  color: var(--dark-shadow);
+  color: var(--transparent-purple);
 }
 .fas {
   font-size: 80px;
   opacity: 0.6;
   padding-right: 10px;
+  color: var(--modern-purple);
+}
+.right {
+  text-align: right;
 }
 .fa-envelope {
   padding-top: 60px;
   font-size: 200px;
-  color: var(--dark-shadow);
+  color: var(--modern-purple);
 }
 .icon:hover,
 .email-link:hover {
