@@ -1,7 +1,15 @@
 :root {
   --main-font: "Poppins", sans-serif;
-  --secondary-colour: #bcbdbe;
+  --secondary-colour: #d6d6d6;
   --dark-shadow: #212529;
+  --modern-purple: #630dc2;
+  --modern-pink: #da0e9b;
+  --gradient: linear-gradient(
+    68.6deg,
+    var(--modern-pink),
+    var(--modern-purple)
+  );
+  --shadow: 5px 5px 8px rgba(109, 109, 109, 0.247);
 }
 body {
   font-family: var(--main-font);
@@ -15,6 +23,20 @@ h5 {
   font-weight: 600;
   font-size: 25px;
   opacity: 0.8;
+}
+h6 {
+  font-size: 18px;
+  font-weight: 200;
+}
+hr:not([size]) {
+  height: 3px;
+  color: var(--modern-purple);
+  text-align: right;
+}
+li {
+  padding: 5px 0;
+  list-style-type: none;
+  font-size: 18px;
 }
 a {
   color: #010300;
@@ -30,6 +52,13 @@ a:hover {
 }
 .hero {
   background: #010300;
+}
+.future-background {
+  background: linear-gradient(
+    68.6deg,
+    var(--modern-pink),
+    var(--modern-purple)
+  );
 }
 .hero-contact {
   background: #fbfbfb;
@@ -48,26 +77,54 @@ a:hover {
   height: 600px;
 }
 .content-container {
-  background: #2125294d;
-  padding: 40px 0;
+  background: var(--secondary-colour);
+  padding: 40px 0 0;
 }
 .content-container h4 {
   padding: 60px 0;
   font-size: 30px;
 }
+.about-container {
+  margin-top: 20px;
+}
+.about-container .content-container {
+  margin-top: 160px;
+  transition: ease-in-out all 150ms;
+  box-shadow: var(--shadow);
+}
+.about-container .content-container:hover {
+  color: white;
+  background: linear-gradient(68.6deg, #da0e9944, #650dc270);
+}
+.tile {
+  margin-top: -185px;
+  padding: 0;
+}
+.tile-image {
+  padding: 0;
+}
+.about-card {
+  background: white;
+  border-radius: 4px;
+  box-shadow: var(--shadow);
+}
 .btn {
   padding: 15px 20px;
 }
 .content-container p {
-  font-size: 17px;
+  font-size: 16px;
+  font-weight: 200;
+}
+.content-container h5 {
+  font-weight: 400;
 }
 .card {
-  background: #bcbdbe;
+  background: var(--secondary-colour);
   border: 1px solid var(--secondary-colour);
   transition: all 200ms ease-in-out;
 }
 .card:hover {
-  background: #cecece;
+  background: #e4e4e4;
   border: 1px solid var(--secondary-colour);
   box-shadow: 5px 5px 8px rgba(114, 114, 114, 0.295);
 }
@@ -77,12 +134,16 @@ a:hover {
 .underlink {
   max-width: 40%;
 }
+.highlight-line {
+  max-width: 80%;
+}
 .icon {
   font-size: 40px;
   color: var(--dark-shadow);
 }
-.fa-circle {
-  font-size: 18px;
+.fas {
+  font-size: 80px;
+  opacity: 0.6;
   padding-right: 10px;
 }
 .fa-envelope {
