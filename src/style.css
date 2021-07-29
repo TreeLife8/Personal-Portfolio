@@ -58,6 +58,14 @@ a:hover {
 .bg {
   background-color: var(--modern-purple);
 }
+.progress {
+  height: 30px;
+  font-size: 15px;
+}
+.progress-bar {
+  text-align: left;
+  padding-left: 5px;
+}
 .hero {
   background: #010300;
 }
@@ -139,6 +147,18 @@ a:hover {
   color: white;
   border: 5px solid var(--transparent-purple);
 }
+.btn-course {
+  border: none;
+  background: none;
+}
+.btn-course:hover {
+  text-decoration: underline;
+  color: white;
+}
+.course-title {
+  text-align: right;
+  padding-top: 7px;
+}
 .bottom-margin {
   padding-bottom: 100px;
 }
@@ -201,6 +221,10 @@ a:hover {
   opacity: 0.8;
   margin-bottom: 2px;
 }
+.footer-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
 @media (max-width: 576px) {
   h1 {
     text-align: center;
@@ -208,6 +232,7 @@ a:hover {
   }
   h2 {
     text-align: center;
+    padding: 10px 5px;
   }
   img {
     padding: 0;
@@ -216,5 +241,12 @@ a:hover {
   }
   .hero-photo {
     padding: 0;
+  }
+  .bottom-margin {
+    padding-bottom: 0px;
+  }
+  .email-link,
+  .footer-icon {
+    text-align: center;
   }
 }
