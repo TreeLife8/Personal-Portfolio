@@ -169,6 +169,17 @@ a:hover {
 .content-container h5 {
   font-weight: 400;
 }
+.accordOne {
+  margin-top: 80px;
+}
+.accordion-button:focus {
+  border-color: var(--transparent-purple);
+  box-shadow: 0 0 0 0.25rem #d8bbf86b;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--modern-purple);
+  background-color: #e9dafa6b;
+}
 .card {
   background: var(--secondary-colour);
   border: 1px solid var(--secondary-colour);
@@ -187,10 +198,11 @@ a:hover {
 }
 .underlink {
   max-width: 40%;
+  margin-right: 0;
+  text-align: right;
 }
 .highlight-line {
   max-width: 80%;
-  color: var(--modern-purple);
 }
 .icon {
   font-size: 40px;
