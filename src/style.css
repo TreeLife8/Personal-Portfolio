@@ -4,6 +4,7 @@
   --dark-shadow: #212529;
   --modern-purple: #630dc2;
   --transparent-purple: #9878bb;
+  --light-purple: #d8bbf86b;
   --modern-pink: #da0e9b;
   --gradient: linear-gradient(
     68.6deg,
@@ -178,7 +179,7 @@ a:hover {
   background-color: #e9dafa6b;
 }
 .card {
-  background: var(--secondary-colour);
+  background: var(--light-purple);
   border: 1px solid var(--secondary-colour);
   transition: all 200ms ease-in-out;
 }
@@ -187,8 +188,11 @@ a:hover {
   border: 1px solid var(--secondary-colour);
   box-shadow: 5px 5px 8px rgba(114, 114, 114, 0.295);
 }
-.card-right {
-  margin-top: 250px;
+.card-left {
+  margin-top: 100px;
+}
+.card-work {
+  background: #e3cff893;
 }
 .margin {
   margin-top: 100px;
@@ -200,6 +204,9 @@ a:hover {
 }
 .highlight-line {
   max-width: 80%;
+}
+.contact-link:hover {
+  color: var(--secondary-colour);
 }
 .icon {
   font-size: 40px;
