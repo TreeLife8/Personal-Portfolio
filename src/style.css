@@ -1,6 +1,6 @@
 :root {
   --main-font: "Poppins", sans-serif;
-  --secondary-colour: #d6d6d6;
+  --secondary-colour: #f8f8f8;
   --dark-shadow: #212529;
   --modern-purple: #630dc2;
   --transparent-purple: #9878bb;
@@ -50,7 +50,7 @@ a {
   transition: all 200ms ease-in-out;
 }
 a:hover {
-  color: rgba(255, 255, 255, 0.658);
+  color: rgba(255, 255, 255, 0.8);
 }
 .section {
   max-width: 1100px;
@@ -186,8 +186,12 @@ a:hover {
 .card:hover {
   background: #dddddd;
   border: 1px solid var(--secondary-colour);
-  box-shadow: 5px 5px 8px rgba(114, 114, 114, 0.295);
+  box-shadow: 5px 5px 8px rgba(207, 207, 207, 0.295);
 }
+.card .card-title {
+  color: white;
+}
+
 .card-left {
   margin-top: 100px;
 }
@@ -244,7 +248,7 @@ a:hover {
 }
 .icon:hover,
 .email-link:hover {
-  color: var(--secondary-colour);
+  color: var(--modern-purple);
 }
 .email-link {
   text-align: right;
