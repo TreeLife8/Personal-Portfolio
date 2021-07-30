@@ -184,7 +184,7 @@ a:hover {
   transition: all 200ms ease-in-out;
 }
 .card:hover {
-  background: #e4e4e4;
+  background: #dddddd;
   border: 1px solid var(--secondary-colour);
   box-shadow: 5px 5px 8px rgba(114, 114, 114, 0.295);
 }
@@ -195,8 +195,7 @@ a:hover {
   background: #e3cff893;
 }
 .contact-card {
-  background: var(--secondary-colour);
-  opacity: 0.8;
+  background: #ebebeb;
 }
 .contact-card .card-title {
   color: var(--modern-purple);
@@ -237,6 +236,11 @@ a:hover {
   display: block;
   margin: 0 auto;
   color: var(--transparent-purple);
+}
+.content-container .fa-envelope {
+  font-size: 200px;
+  text-align: center;
+  margin-top: 50px;
 }
 .icon:hover,
 .email-link:hover {
