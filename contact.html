@@ -64,7 +64,10 @@
         </div>
       </div>
     </nav>
-    <div class="hero-contact">
+    <div class="section">
+      <h2 id="contact-title" class="black"></h2>
+    </div>
+    <div class="hero-contact" id="hero-contact">
       <div class="section">
         <div class="row">
           <div class="col-1"></div>
@@ -80,49 +83,80 @@
     <div class="content-container pb-5">
       <div class="section">
         <div class="row">
-          <div class="col-sm-6">
+          <div class="col-sm-6 ps-3">
+          <form id="send-mail">
             <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label"
+              <label for="name" class="form-label"
                 >Name</label
               >
               <input
                 type="name"
                 class="form-control"
-                id="exampleFormControlInput1"
+                id="name"
               />
             </div>
             <div class="mb-3">
-              <label for="exampleFormControlInput1" class="form-label"
+              <label for="email-address" class="form-label"
                 >Email address</label
               >
               <input
                 type="email"
                 class="form-control"
-                id="exampleFormControlInput1"
+                id="email-address"
               />
             </div>
             <div class="mb-3">
-              <label for="exampleFormControlTextarea1" class="form-label"
+              <label for="contact-message" class="form-label"
                 >Leave me a message ✌</label
               >
               <textarea
                 class="form-control"
-                id="exampleFormControlTextarea1"
+                id="contact-message"
                 rows="3"
               ></textarea>
             </div>
             <input
               type="submit"
               value="send"
-              class="btn btn-secondary btn-sm"
+              class="btn btn-sm"
             />
+            </form>
           </div>
           <div class="col-sm-6">
-            <i class="far fa-envelope text-center d-block"></i>
+            <div class="card contact-card shadow mb-3 p-3">
+              <div class="card-body">
+                <h5 class="card-title text-center">contact details</h5>
+                <p class="card-text">
+                  <h6>email</h6>
+                   <small>
+                     <a href="mailto:regina.maher8@gmail.com" class="contact-link"
+                      >regina.maher8@gmail.com</a
+                      >
+                   </small>
+                    <h6 class="pt-2">instagram</h6>
+                    <small>
+                      <a
+                        href="https://www.instagram.com/earthcyclesolutions/"
+                        class="contact-link"
+                        >@earthcyclesolutions</a
+                      >
+                    </small>
+                    <h6 class="pt-2">linkedIn</h6>
+                    <small>
+                      <a
+                        href="https://www.linkedin.com/in/regina-maher-ecs/"
+                        class="contact-link"
+                        >regina-maher-ecs</a
+                      >
+                    </small>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
     <footer class="pt-3 pb-3">
       <div class="row section">
         <div class="col-sm-4 footer-icon">
@@ -153,7 +187,7 @@
             >regina.maher8@gmail.com</a
           >
         </div>
-      </div>
     </footer>
+   <script src="/src/contact.js"></script>
   </body>
 </html>
