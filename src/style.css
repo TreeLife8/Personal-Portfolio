@@ -83,7 +83,7 @@ a:hover {
 .hero-contact {
   background-image: url(/images/BANNER\ -\ 4\ -\ contact\ me.png);
   background-size: cover;
-  height: 400px;
+  height: 600px;
 }
 .hero h1 {
   padding-bottom: 0;
@@ -94,14 +94,10 @@ a:hover {
   text-shadow: 2px 2px 8px rgba(25, 25, 25, 0.295);
 }
 .hero-about {
-  background-image: url(/images/BANNER\ -\ 2\ -\ about\ me.png);
-  background-size: cover;
-  height: 390px;
+  background: linear-gradient(1deg, #a70864, #400d61);
 }
 .hero-work {
-  background-image: url(/images/BANNER\ -\ 3\ -\ my\ work.png);
-  background-size: contain;
-  height: 380px;
+  background: linear-gradient(1deg, #a70864, #400d61);
 }
 .content-container {
   background: var(--secondary-colour);
