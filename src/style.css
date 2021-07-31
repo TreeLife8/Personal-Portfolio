@@ -53,7 +53,7 @@ a {
   transition: all 200ms ease-in-out;
 }
 a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: var(--modern-pink);
 }
 .section {
   max-width: 1100px;
@@ -80,10 +80,16 @@ a:hover {
     var(--modern-purple)
   );
 }
+.hero-contact h1 {
+  margin: 0;
+}
 .hero-contact {
-  background-image: url(/images/BANNER\ -\ 4\ -\ contact\ me.png);
-  background-size: cover;
-  height: 600px;
+  background: black;
+  padding: 0;
+}
+.contact {
+  margin: 0;
+  padding: 0;
 }
 .hero h1 {
   padding-bottom: 0;
@@ -188,24 +194,30 @@ a:hover {
   background-color: #e9dafa6b;
 }
 .card {
-  background: var(--light-purple);
   border: 1px solid var(--secondary-colour);
   transition: all 200ms ease-in-out;
+  background: var(--gradient);
+  color: white;
 }
 .card:hover {
-  background: #dddddd;
+  background: rgb(70, 70, 70);
   border: 1px solid var(--secondary-colour);
   box-shadow: 5px 5px 8px rgba(207, 207, 207, 0.295);
+  color: white;
 }
-.card .card-title,
-.future-background h3 {
+.future-background h3,
+.future-background h6 {
   color: white;
 }
 .card-left {
   margin-top: 100px;
 }
 .card-work {
-  background: #e3cff893;
+  background: #cacaca;
+  color: rgb(70, 70, 70);
+}
+.card-work .text-title {
+  color: rgb(70, 70, 70);
 }
 .contact-card {
   background: #ebebeb;
@@ -215,7 +227,12 @@ a:hover {
 }
 .contact-card h6 {
   margin-bottom: 0;
+  color: var(--modern-purple);
   margin-top: 5px;
+}
+.contact-card:hover {
+  background: var(--secondary-colour);
+  color: white;
 }
 .margin {
   margin-top: 100px;
