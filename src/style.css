@@ -81,20 +81,27 @@ a:hover {
   );
 }
 .hero-contact {
-  background: #fbfbfb;
+  background-image: url(/images/BANNER\ -\ 4\ -\ contact\ me.png);
+  background-size: cover;
+  height: 400px;
 }
 .hero h1 {
   padding-bottom: 0;
 }
 .hero-contact h1 {
   font-weight: 600;
-  color: #131313;
+  text-align: end;
   text-shadow: 2px 2px 8px rgba(25, 25, 25, 0.295);
 }
-.hero-work {
-  background-image: url(/images/do-something-great.jpg);
+.hero-about {
+  background-image: url(/images/BANNER\ -\ 2\ -\ about\ me.png);
   background-size: cover;
-  height: 600px;
+  height: 390px;
+}
+.hero-work {
+  background-image: url(/images/BANNER\ -\ 3\ -\ my\ work.png);
+  background-size: contain;
+  height: 380px;
 }
 .content-container {
   background: var(--secondary-colour);
