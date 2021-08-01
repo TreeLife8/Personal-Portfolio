@@ -213,6 +213,7 @@ a:hover {
   margin-top: 70px;
 }
 .card-work {
+  transition: all 200ms ease-in-out;
   background: #cacaca;
   color: rgb(70, 70, 70);
 }
