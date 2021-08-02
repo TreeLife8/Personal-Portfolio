@@ -14,7 +14,7 @@ document
   .addEventListener("mouseover", function () {
     var txt = document.querySelector("#my-services").innerHTML;
     document.querySelector("#my-services").innerHTML =
-      "enjoy the journey of web development with trust";
+      "enjoy the journey of web development";
 
     this.addEventListener("mouseout", function () {
       document.querySelector("#my-services").innerHTML = txt;

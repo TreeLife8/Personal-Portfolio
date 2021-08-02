@@ -154,7 +154,7 @@ a:hover {
 }
 .btn {
   padding: 15px 20px;
-  background: var(--modern-purple);
+  background: linear-gradient(60deg, #fe5195, #f76e62);
   color: white;
   transition: all 200ms ease-in-out;
 }
@@ -210,12 +210,17 @@ a:hover {
   color: white;
 }
 .card-left {
-  margin-top: 70px;
+  margin-top: 80px;
 }
 .card-work {
   transition: all 200ms ease-in-out;
-  background: #cacaca;
+  background: white;
   color: rgb(70, 70, 70);
+  padding: 40px;
+  margin: 50px;
+}
+.photo {
+  padding: 0;
 }
 .card-work .text-title {
   color: rgb(70, 70, 70);
@@ -248,7 +253,7 @@ a:hover {
 }
 .icon {
   font-size: 40px;
-  color: var(--transparent-purple);
+  color: var(--modern-pink);
 }
 a .hyperlink:hover {
   color: var(--modern-pink);
@@ -277,7 +282,8 @@ a .hyperlink:hover {
   margin-top: 50px;
 }
 .photo-margin {
-  margin-bottom: -200px;
+  margin: 0 0 -200px;
+  padding: 0;
 }
 .top-margin {
   margin-top: 150px;
@@ -328,6 +334,10 @@ a .hyperlink:hover {
   .contact-card a {
     display: block;
     text-align: center;
+  }
+  .card-work {
+    padding: 20px;
+    margin: 20px;
   }
   .hero-photo {
     padding: 0;
