@@ -195,7 +195,6 @@ a:hover {
 }
 .card {
   border: 1px solid var(--secondary-colour);
-  transition: all 200ms ease-in-out;
   background: var(--gradient);
   color: white;
 }
