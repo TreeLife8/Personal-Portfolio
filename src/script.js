@@ -40,3 +40,9 @@ var popover = new bootstrap.Popover(
     container: "body",
   }
 );
+var popover = new bootstrap.Popover(
+  document.querySelector(".example-popover-8"),
+  {
+    container: "body",
+  }
+);
