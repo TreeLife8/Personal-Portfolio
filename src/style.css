@@ -132,15 +132,7 @@ a:hover {
   color: white;
   background: linear-gradient(68.6deg, #da0e9944, #650dc270);
 }
-.colored-content {
-  transition: all 150ms ease-in-out;
-  color: white;
-  background: linear-gradient(68.6deg, #da0e9944, #650dc270);
-}
-.colored-content:hover {
-  background: white;
-  color: var(--dark-shadow);
-}
+
 .tile {
   margin-top: -185px;
   padding: 0;
@@ -211,6 +203,9 @@ a:hover {
   background: var(--gradient);
   color: white;
 }
+.experience-card {
+  opacity: 0.6;
+}
 .card:hover {
   background: rgb(70, 70, 70);
   border: 1px solid var(--secondary-colour);
@@ -237,6 +232,9 @@ a:hover {
 }
 .photo {
   padding: 0;
+}
+.contact-me {
+  margin-top: 20px;
 }
 .card-work .text-title {
   color: rgb(70, 70, 70);
@@ -302,10 +300,10 @@ a .hyperlink:hover {
   margin: 0 auto;
   color: var(--transparent-purple);
 }
-.content-container .fa-envelope {
+.contact-icon {
   font-size: 200px;
+  display: block;
   text-align: center;
-  margin-top: 50px;
 }
 .horizontal-title-border {
   max-width: 100%;
@@ -316,6 +314,9 @@ a .hyperlink:hover {
   border-left: solid 3px var(--modern-purple);
   padding: 60px 10px 200px;
   margin: 0 50px -200px;
+}
+.white {
+  background: white;
 }
 .photo-margin {
   margin: 0 0 -200px;
@@ -378,6 +379,9 @@ a .hyperlink:hover {
   .photo-margin {
     display: none;
   }
+  .coding-experience h2 {
+    text-align: left;
+  }
   .card-left {
     margin-top: 10px;
   }
@@ -387,8 +391,12 @@ a .hyperlink:hover {
   .top-margin {
     display: none;
   }
+  .content-container {
+    padding: 0;
+  }
   .bottom-margin {
     padding-bottom: 0px;
+    margin-top: 10px;
   }
   .email-link,
   .footer-icon {
