@@ -132,6 +132,15 @@ a:hover {
   color: white;
   background: linear-gradient(68.6deg, #da0e9944, #650dc270);
 }
+.colored-content {
+  transition: all 150ms ease-in-out;
+  color: white;
+  background: linear-gradient(68.6deg, #da0e9944, #650dc270);
+}
+.colored-content:hover {
+  background: white;
+  color: var(--dark-shadow);
+}
 .tile {
   margin-top: -185px;
   padding: 0;
