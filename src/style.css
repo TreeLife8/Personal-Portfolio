@@ -232,6 +232,10 @@ a:hover {
 .card-work .text-title {
   color: rgb(70, 70, 70);
 }
+.card-work .btn:hover {
+  background: white;
+  color: var(--dark-shadow);
+}
 .contact-card {
   background: #ebebeb;
 }
@@ -362,8 +366,17 @@ a .hyperlink:hover {
     padding: 20px;
     margin: 20px;
   }
+  .photo-margin {
+    display: none;
+  }
+  .card-left {
+    margin-top: 10px;
+  }
   .hero-photo {
     padding: 0;
+  }
+  .top-margin {
+    display: none;
   }
   .bottom-margin {
     padding-bottom: 0px;
