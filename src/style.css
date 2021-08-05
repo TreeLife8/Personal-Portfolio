@@ -34,6 +34,7 @@ hr:not([size]) {
   height: 3px;
   text-align: right;
   color: var(--modern-purple);
+  opacity: 1;
 }
 li {
   padding: 5px 0;
@@ -142,9 +143,9 @@ a:hover {
   box-shadow: var(--shadow);
 }
 .tile-second-section {
-  margin-top: 150px;
+  margin-top: 200px;
   margin-left: 70px;
-  margin-bottom: -200px;
+  margin-bottom: -250px;
   padding: 0;
   max-width: 150%;
 }
@@ -152,16 +153,19 @@ a:hover {
   color: white;
   background: linear-gradient(68.6deg, #da0e9944, #650dc270);
 }
+
 .btn {
   padding: 15px 20px;
-  background: linear-gradient(60deg, #fe5195, #f76e62);
+  background: var(--dark-shadow);
+  opacity: 0.6;
   color: white;
   transition: all 200ms ease-in-out;
 }
 .btn:hover {
   opacity: 0.8;
   color: white;
-  border: 5px solid var(--transparent-purple);
+  border: 5px solid var(--secondary-colour);
+  border-radius: 4px;
 }
 .btn-course {
   border: none;
@@ -203,6 +207,10 @@ a:hover {
   border: 1px solid var(--secondary-colour);
   box-shadow: 5px 5px 8px rgba(207, 207, 207, 0.295);
   color: white;
+}
+.service-cards {
+  background: var(--secondary-colour);
+  color: var(--dark-shadow);
 }
 .future-background h3,
 .future-background h6 {
@@ -257,6 +265,12 @@ a:hover {
 a .hyperlink:hover {
   color: var(--modern-pink);
 }
+.border-break {
+  display: block;
+  margin: 40px auto;
+  max-width: 20%;
+  padding: 2px;
+}
 .photo-margin p {
   color: white;
 }
@@ -279,6 +293,16 @@ a .hyperlink:hover {
   font-size: 200px;
   text-align: center;
   margin-top: 50px;
+}
+.horizontal-title-border {
+  max-width: 100%;
+  border-bottom-color: var(--modern-purple);
+  margin-bottom: 70px;
+}
+.vertical-title-border {
+  border-left: solid 3px var(--modern-purple);
+  padding: 60px 10px 200px;
+  margin: 0 50px -200px;
 }
 .photo-margin {
   margin: 0 0 -200px;
