@@ -395,6 +395,9 @@ a .hyperlink:hover {
   .top-margin {
     display: none;
   }
+  .collapse {
+    display: inline-block;
+  }
   .content-container {
     padding: 0;
   }
